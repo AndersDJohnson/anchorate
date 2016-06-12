@@ -18,7 +18,7 @@ exports.hash = function hash (h) {
   }, 0)
 }
 
-exports.scroller = function scroller (el) {
+exports.scroll = function scroller (el) {
   if (! el) return false
   el.scrollIntoView()
   return true
@@ -36,6 +36,7 @@ exports.elements = function elements (h) {
 exports.selectors = function selectors (h) {
   if (! h) return
   h = h.replace(/^#/, '')
+  if (! h) return
   return {
     id: h,
     name: '[name="' + CSSescape(h) + '"]'
