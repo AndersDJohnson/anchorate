@@ -1,0 +1,18 @@
+{
+  "name": "anchorate",
+  "version": "1.0.0",
+  "description": "Scroll to anchor links.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adjohnson916/anchorate.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anders D. Johnson",
+  "license": "ISC",
+  "dependencies": {
+    "css.escape": "^1.5.0"
+  }
+}
