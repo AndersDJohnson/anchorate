@@ -30,6 +30,7 @@ history.listen(() => {
 ### [React Router]
 ```js
 import { anchorate } from 'anchorate'
+import { render } from 'react-dom'
 import { Router, browserHistory } from 'react-router'
 
 function onUpdate () {
