@@ -18,7 +18,7 @@ exports.hash = function hash (h) {
   }, 0)
 }
 
-exports.scroll = function scroller (el) {
+exports.scroller = function scroller (el) {
   if (! el) return false
   el.scrollIntoView()
   return true
