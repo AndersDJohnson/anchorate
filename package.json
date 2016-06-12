@@ -8,11 +8,16 @@
     "url": "https://github.com/AndersDJohnson/anchorate.git"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish-please": "publish-please",
+    "prepublish": "publish-please guard"
   },
   "author": "Anders D. Johnson",
   "license": "ISC",
   "dependencies": {
     "css.escape": "^1.5.0"
+  },
+  "devDependencies": {
+    "publish-please": "^2.1.4"
   }
 }
