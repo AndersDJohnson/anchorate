@@ -57,6 +57,28 @@ exports.onRouteChange = () => {
 }
 ```
 
+### Customize the scrolling behavior
+```js
+anchorate({ 
+  scroller: function (element) {
+    if (!element) return false
+    element.scrollIntoView({ behavior: 'smooth' })
+    return true
+  }
+})
+```
+
+### Getting results
+```js
+anchorate({ 
+  callback: function (success) {
+    if (!success) {
+      // Do something
+    }
+  }
+})
+```
+
 [react router]: https://github.com/reactjs/react-router
 [history]: https://github.com/ReactJSTraining/history
 [gatsby]: https://github.com/gatsbyjs/gatsby
