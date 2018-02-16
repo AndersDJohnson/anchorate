@@ -71,8 +71,8 @@ anchorate({
 ### Getting results
 ```js
 anchorate({ 
-  callback: function (success) {
-    if (!success) {
+  callback: function (error) {
+    if (error) {
       // Do something
     }
   }
