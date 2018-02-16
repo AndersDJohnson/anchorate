@@ -9,7 +9,7 @@ exports.hash = function hash (h, options) {
   options = options || {}
   var cb = options.callback || function () {}
   // There's no hash to scroll to, so "success", we did it.
-  if (!h) return void cb(false)
+  if (!h) return void cb()
   var scroller = options.scroller || exports.scroller
   // Push onto callback queue so it runs after the DOM is updated,
   // this is required when navigating from a different page so that
@@ -17,8 +17,9 @@ exports.hash = function hash (h, options) {
   setTimeout(function () {
     var els = exports.elements(h)
     if (!els) return void cb(true)
-    if (scroller(els.id)) return void cb(false)
-    cb(!scroller(els.name))
+    if (scroller(els.id)) return void cb()
+    if (scroller(els.id)) return void cb()
+    cb(true)
   }, 0)
 }
 
