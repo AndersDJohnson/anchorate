@@ -17,8 +17,7 @@ exports.hash = function hash (h, options) {
   setTimeout(function () {
     var els = exports.elements(h)
     if (!els) return void cb(true)
-    if (scroller(els.id)) return void cb()
-    if (scroller(els.id)) return void cb()
+    if (scroller(els.id) || scroller(els.name)) return void cb()
     cb(true)
   }, 0)
 }
