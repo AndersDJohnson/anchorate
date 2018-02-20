@@ -57,6 +57,35 @@ exports.onRouteChange = () => {
 }
 ```
 
+### Customize the scrolling behavior
+You can provide your own scrolling behavior by passing in a `scroller` function
+in an options object. It is expected that you return true if the scroll was
+successful.
+```js
+anchorate({ 
+  scroller: function (element) {
+    if (!element) return false
+    element.scrollIntoView({ behavior: 'smooth' })
+    return true
+  }
+})
+```
+
+### Getting results
+You can provide a completion callback function in the options object to be
+informed when the operation has complete and if there were any errors.
+An error will be returned if the element referred to in the hash was not
+found.
+```js
+anchorate({ 
+  callback: function (error) {
+    if (error) {
+      // Do something
+    }
+  }
+})
+```
+
 [react router]: https://github.com/reactjs/react-router
 [history]: https://github.com/ReactJSTraining/history
 [gatsby]: https://github.com/gatsbyjs/gatsby
