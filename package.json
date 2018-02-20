@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/AndersDJohnson/anchorate.git"
+    "url": "AndersDJohnson/anchorate"
   },
   "scripts": {
     "test": "eslint index.js"
