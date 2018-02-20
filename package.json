@@ -8,9 +8,7 @@
     "url": "https://github.com/adjohnson916/anchorate.git"
   },
   "scripts": {
-    "test": "eslint index.js",
-    "publish-please": "publish-please",
-    "prepublish": "publish-please guard"
+    "test": "eslint index.js"
   },
   "author": "Anders D. Johnson",
   "license": "ISC",
@@ -25,7 +23,6 @@
     "eslint-config-standard": "^5.3.5",
     "eslint-plugin-promise": "^2.0.1",
     "eslint-plugin-standard": "^2.0.0",
-    "jest": "^22.3.0",
-    "publish-please": "^2.1.4"
+    "jest": "^22.3.0"
   }
 }
