@@ -8,7 +8,7 @@
     "url": "AndersDJohnson/anchorate"
   },
   "scripts": {
-    "test": "eslint index.js"
+    "test": "eslint index.js && jest"
   },
   "author": "Anders D. Johnson",
   "license": "ISC",
