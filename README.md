@@ -52,7 +52,7 @@ In `gastby-browser.js`:
 ```js
 import { anchorate } from 'anchorate'
 
-exports.onRouteChange = () => {
+exports.onRouteUpdate = () => {
   anchorate()
 }
 ```
