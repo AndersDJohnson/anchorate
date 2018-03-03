@@ -1,6 +1,6 @@
 {
   "name": "anchorate",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Scroll to anchor links.",
   "main": "index.js",
   "repository": {
