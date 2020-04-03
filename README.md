@@ -8,6 +8,15 @@ it'll [scrollIntoView] first matching element by `id` or `name` per [spec].
 
 Originally based on: https://github.com/reactjs/react-router/issues/394#issuecomment-220221604
 
+## Used By
+
+* [Formidable Labs Spectacle Docs](https://formidable.com/open-source/spectacle/)
+* [Formidable Labs Victory Docs](https://formidable.com/open-source/victory/)
+* [Formidable Labs Renature Docs](https://formidable.com/open-source/renature/)
+* [Full Stack Open 2019](https://fullstackopen.com/)
+* [Kyma](https://kyma-project.io/)
+* [LessWrong](https://www.lesswrong.com/)
+
 ## Install
 ```
 npm install --save anchorate
