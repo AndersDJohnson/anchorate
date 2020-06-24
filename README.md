@@ -10,6 +10,15 @@ Originally based on: https://github.com/reactjs/react-router/issues/394#issuecom
 
 See docs at https://andersdjohnson.com/code/anchorate/.
 
+## Used By
+
+* [Formidable Labs Spectacle Docs](https://formidable.com/open-source/spectacle/)
+* [Formidable Labs Victory Docs](https://formidable.com/open-source/victory/)
+* [Formidable Labs Renature Docs](https://formidable.com/open-source/renature/)
+* [Full Stack Open 2019](https://fullstackopen.com/)
+* [Kyma](https://kyma-project.io/)
+* [LessWrong](https://www.lesswrong.com/)
+
 [react router]: https://github.com/reactjs/react-router
 [history]: https://github.com/ReactJSTraining/history
 [gatsby]: https://github.com/gatsbyjs/gatsby
