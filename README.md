@@ -8,7 +8,7 @@ it'll [scrollIntoView] first matching element by `id` or `name` per [spec].
 
 Originally based on: https://github.com/reactjs/react-router/issues/394#issuecomment-220221604
 
-See docs at https://andersdjohnson.com/code/anchorate/.
+See docs at https://andersdjohnson.github.io/anchorate/.
 
 ## Used By
 
