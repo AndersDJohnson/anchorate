@@ -33,7 +33,7 @@ history.listen(() => {
 ```
 
 ### [React Router]
-```js
+```jsx
 import { anchorate } from 'anchorate'
 import { render } from 'react-dom'
 import { Router, browserHistory } from 'react-router'
