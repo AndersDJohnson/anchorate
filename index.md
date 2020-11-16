@@ -55,7 +55,7 @@ render((
 ### [Gatsby]
 In `gatsby-browser.js`:
 ```js
-import { anchorate } from 'anchorate'
+const { anchorate } = require('anchorate')
 
 exports.onRouteUpdate = () => {
   anchorate()
