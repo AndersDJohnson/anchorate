@@ -1,6 +1,6 @@
 {
   "name": "anchorate",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "Scroll to anchor links.",
   "main": "index.js",
   "repository": {
@@ -12,7 +12,9 @@
   },
   "author": "Anders D. Johnson",
   "license": "ISC",
-  "files": ["index.js"],
+  "files": [
+    "index.js"
+  ],
   "dependencies": {
     "css.escape": "^1.5.0"
   },
